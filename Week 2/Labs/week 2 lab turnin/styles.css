@@ -1,0 +1,13 @@
+body{
+    background-color:rgb(145, 69, 69)
+}
+
+p{
+    color: hsl(300, 46%, 62%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+table{
+color:chocolate;
+}
