@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(236, 252, 252)
+}
+
+p{
+    color: red;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
