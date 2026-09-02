@@ -19,7 +19,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 margin:20px;
 padding: 5px;
-border: none;
+border: 1px dotted aliceblue;
 }
 
 #top-of-page{
