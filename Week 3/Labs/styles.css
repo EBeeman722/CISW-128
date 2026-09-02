@@ -1,0 +1,66 @@
+body{
+background-color: lightblue;
+}
+
+/* to style multiple elements, use classes and IDs */
+/* classes are used for multiple elements, ids are used only once */
+
+/* class example */
+
+.highlight{
+color:red;
+font-weight: bold;
+}
+
+/* Ids should be unique, as they are only used once on the page. */
+/* id example */
+
+#main-header{
+text-align: center;
+font-size: 32px;
+}
+
+
+/* 
+everything in css is a box, each one has layers
+1. content: text, images, etc.
+2. padding: space between content and the border
+3. border: the box's line
+4. margin: space between this box and the rest around it
+
+use margins to separate elements apart, and use padding to give breathing room inside the element
+
+*/
+
+p{
+    margin: 20px, 10px, 10px, 10px; /*goes top, right, left, bottom*/
+    padding: 10px;
+    border: 2px /* thickness */ solid /* style */ red /* colour*/
+
+}
+
+/*
+Links change style depending on their state ::after
+
+a:link      Default Unvisited
+A:visited   link the user has already clicked
+a:hover     when the mouse hovers over it
+a:active    when the link is being clicked
+*/
+
+a:link{
+color: blueviolet;
+}
+
+a:visited{
+color: red;
+}
+
+a:hover{
+color: aqua;
+text-decoration: wavy;
+}
+a:active{
+color: orange;
+}
+
