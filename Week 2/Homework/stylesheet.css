@@ -1,0 +1,28 @@
+body {
+    background-color:lavenderblush;
+}
+
+main{
+    color:maroon;
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+    color: #6e4f15;
+}
+
+game_ranking{
+    color:maroon;
+    font-family: sans-serif;
+}
+
+nav{
+    text-align: center;
+    color: maroon;
+    font-family: sans-serif;
+}
+
+table_of_ideas{
+    color:black;
+}
