@@ -1,0 +1,52 @@
+body{
+    background-color:lavenderblush;
+}
+
+.main-text{
+    color:maroon;
+    font-family: sans-serif;
+}
+
+.header-sections{
+    text-align: center;
+    color: #6e4f15;
+    margin: 10px;
+    padding: 7px;
+}
+
+#game_ranking{
+    color:maroon;
+    font-family: sans-serif;
+}
+
+.nav-section{
+    text-align: center;
+    color: maroon;
+    font-family: sans-serif;
+    a:hover{
+        color: #671b75;
+    };
+}
+
+#table_of_ideas{
+    color:black;
+    th{
+        margin: 5px;
+        padding: 5px;
+    }
+    td{
+        margin:7px;
+        padding:6px;
+        text-align: center;
+    }
+}
+
+#terraria-wiki{
+    color: greenyellow;
+}
+
+#home-second-header{
+    color: grey;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
