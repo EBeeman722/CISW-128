@@ -1,0 +1,28 @@
+/* sets the background to be a set colour across the entire web app */
+body{
+    background-color: #b4b3ad;
+}
+
+/* stylings for all the aspects of the web app */
+.header-styling{
+    font-family:monospace;
+    font-weight: bold;
+    color: purple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#title-card{
+    font-style: italic;
+}
+
+.content-styling{
+    color:rgb(184, 65, 184);
+    font-family:monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

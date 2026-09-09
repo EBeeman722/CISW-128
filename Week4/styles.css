@@ -1,0 +1,18 @@
+body{
+    color: maroon;
+}
+
+nav{
+    display:flex;
+    gap: 20px;
+    /* instead of adding margins to every item, gap adds consistent spacing between flex items */
+}
+
+.cards{
+    display:flex;
+    flex-direction: row;
+gap:30px;
+    justify-content: space-between;  /* works as spacing for flex */
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
