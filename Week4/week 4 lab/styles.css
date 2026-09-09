@@ -8,6 +8,7 @@ body{
     font-family:monospace;
     font-weight: bold;
     color: purple;
+/* defines how the content will flex around the page when shrunk */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -21,6 +22,7 @@ body{
 .content-styling{
     color:rgb(184, 65, 184);
     font-family:monospace;
+/* defines how the content will flex around the page when shrunk */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
