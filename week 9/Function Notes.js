@@ -10,29 +10,40 @@
 // greet("user's name");
 
 // function that adds 2 numbers, then console.log's the total
-function addNumbers(firstNumber, secondNumber){
-    return firstNumber+secondNumber;
-}
+// function addNumbers(firstNumber, secondNumber){
+//     return firstNumber+secondNumber;
+// }
 
-let total = addNumbers(4,6)
-console.log("the total is " + total)
+// let total = addNumbers(4,6)
+// console.log("the total is " + total)
 
-// return gives the answer to be used later
-// console.log states the answer in the console
+// // return gives the answer to be used later
+// // console.log states the answer in the console
 
-function multNumbers(a,b){
-    return a*b;
-}
+// function multNumbers(a,b){
+//     return a*b;
+// }
 
-let result = multNumbers(15,15)
-console.log(result)
+// let result = multNumbers(15,15)
+// console.log(result)
 
-function countTo5(baseNumber){
-    while (baseNumber <= 5){
-        console.log(baseNumber);
-        baseNumber += 1;
-    };
-};
+// function countTo5(baseNumber){
+//     while (baseNumber <= 5){
+//         console.log(baseNumber);
+//         baseNumber += 1;
+//     };
+// };
 
-let startingNumber = Number(prompt("What number would you like to count up to 5?"))
-countTo5(startingNumber);
+// let startingNumber = Number(prompt("What number would you like to count up to 5?"))
+// countTo5(startingNumber);
+
+// nested functions
+// function inside functions that are being called
+
+// function square(num){
+//     return num*num;
+// };
+
+// function printSquare(squaredNumber){
+//     console.log(square(squaredNumber))
+// }
