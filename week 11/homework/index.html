@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video Games — DOM Homework</title>
+  <style>
+    /* You choose the class name */
+    .videoGameHighlights { background: #fff3cd; transition: background 200ms; }
+    .VideoGameDarklights { background:#111; color:#eee; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="titleID">Video Games Page</h1>
+  </header>
+
+  <main id="mainPage">
+    <p class="introClass">Welcome! This page will update with JavaScript.</p>
+
+    <p id="independentChallenge"> This is for part 9 of the assignment</p>
+    <!-- List target you will render into -->
+    <ul id="listOfGames"></ul>
+
+    <!-- Image you will update -->
+    <img id="imageID" src="https://via.placeholder.com/400x200" alt="[placeholder]" />
+
+    <!-- Buttons you will wire up -->
+    <button id="changeHighlightButton">Toggle Highlight</button>
+    <button id="changeImageButton">Swap Image</button>
+  </main>
+
+  <footer id="footerOfSite">© 2025 Charlotte Beeman</footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
