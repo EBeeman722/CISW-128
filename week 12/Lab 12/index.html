@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 12 Beeman</title> 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Website title!</h1> 
+
+  <form id="userInfo"> <!-- Give your form an id -->
+    <label for="name">Name:</label> <!-- Label text -->
+    <input id="name" type="text" placeholder="Your name" required />
+<br>
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+<br>
+
+    <label for="message">Message:</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+
+<br>
+    <label for="colour">Fav Colour:</label>
+    <select id="colour">
+    <option value="Red">Red</option>
+    <option value="Blue">Blue</option>
+    <option value="Violet">Violet</option>
+    </select>
+<br>
+    <button type="submit">Submit Form</button> <!-- Button type and text -->
+</form>
+  <section id="display"></section> <!-- Section to display results -->
+
+  <script src="scripts.js"></script> <!-- JS file name -->
+</body>
+</html>
+
+<!-- 
+What does event.preventDefault() actually prevent?
+-- It prevents the webpage from reloading
+
+What does .value return?
+-- .value returns the value assigned to the field (i.e in a text field for a name, it would return the name typed)
+
+Why use template literals (`${}`) instead of string concatenation? 
+-- organization, ease of use
+
+-->
